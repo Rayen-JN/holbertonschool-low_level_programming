@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Write a program that prints
+ * main - try to fix this
  *
  * return: 0
 */
