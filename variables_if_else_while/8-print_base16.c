@@ -12,7 +12,7 @@ int main(void)
 	{
 		if (num == 58)
 		{
-			num += 38;
+			num += 39;
 		}
 		putchar(num);
 		num++;
