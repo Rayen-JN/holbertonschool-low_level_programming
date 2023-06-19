@@ -14,7 +14,6 @@ int main(void)
 			putchar(ch);
 			ch++;
 		}
-		putchar('\n');
 		while (upper <= 'Z')
 
 		{
