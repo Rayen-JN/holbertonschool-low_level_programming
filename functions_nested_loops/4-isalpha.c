@@ -5,7 +5,7 @@
  * @c: is char
  * Return: 0 or 1
 */
-int _isalfa(int c)
+int _isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'z'))
 	{
