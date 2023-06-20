@@ -1,13 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - print all char
+ * main - print all char character
  *
  * Return: 0
 */
-int main(void)
-{
-	void print_alphabet(void)
+void print_alphabet(void)
 	{
 	char x = 'a';
 
@@ -16,6 +14,6 @@ int main(void)
 		_putchar(x);
 		x++;
 	}
-	}
+
 	return (0);
 }
