@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * _abs - computes the absolute value of an integer
- * @x - this is variabel for the condichen
+ *@x: this is variabel for the condichen
  * Return: 0
 */
 int _abs(int x)
