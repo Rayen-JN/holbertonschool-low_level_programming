@@ -5,8 +5,26 @@
  *Return: 0
 */
 int print_last_digit(int y)
+
 {
-int last_digit = y % 10;
-_putchar(last_digit + '0');
-return last_digit;
+
+	int a;
+
+	if (y < 0)
+
+		y = -y;
+
+
+	a = y % 10;
+
+
+	if (a < 0)
+
+		a = -a;
+
+
+	_putchar(a + '0');
+
+
+	return (a);
 }
