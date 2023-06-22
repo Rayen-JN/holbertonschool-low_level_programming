@@ -16,10 +16,12 @@ void times_table(void)
 				{
 					_putchar(r / 10);
 					_putchar(r % 10);
-					_putchar(', ');
+					_putchar(',');
+					_putchar(' ');
 				}
 			_putchar(r);
-			_putchar(', ');
+			_putchar(',');
+			_putchar(' ');
 		}
 	}
 }
