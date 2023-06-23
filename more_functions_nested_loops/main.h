@@ -1,6 +1,6 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
-
+void print_triangle(int size);
 int _putchar(char c);
 int mul(int a, int b);
 void print_numbers(void);
