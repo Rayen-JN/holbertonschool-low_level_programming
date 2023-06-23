@@ -1,13 +1,11 @@
 #include "main.h"
 
 /**
- * mul - This function multiply two numbers past for params.
- * @a: First param.
- * @b: Second param.
+ * mul - This func
+ * @a: First 
+ * @b: Second 
  *
- * Return: Always 0 (If is Success).
- *
- * Author: Jeremias Erba.
+ * Return: 0
  */
 
 int mul(int a, int b)

@@ -1,12 +1,10 @@
 #include "main.h"
 
 /**
- * _isdigit - This function verify if the param is a digit or no.
- * @c: Param to test.
+ * _isdigit - This function
+ * @c: P
  *
- * Return: Always 0 (If is Success).
- *
- * Author: Jeremias Erba.
+ * Return: 0
  */
 
 
