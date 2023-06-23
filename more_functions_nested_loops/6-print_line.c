@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
 * print_line - this fuc
+*@n: num
 */
 void print_line(int n)
 {
