@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * print_numbers - This function print 0-9 numbers.
+ * print_numbers - This func
  *
- * Return: Always 0 (If is Success).
- *
- * Author: Jeremias Erba.
+ * Return: 0
  */
 
 void print_numbers(void)
