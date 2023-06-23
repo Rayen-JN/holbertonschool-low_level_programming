@@ -1,21 +1,10 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * main -  fun
+ * main -  Entry point
  *
  * Return: 0
  *
- */
-
-/**
- * fizz_buzz - this part
- *
- * multiple of 3 - print
- * multiple of 5 - print
- * multiple of the two - mut
- *
- * Return: 0
  */
 
 int fizz_buzz(void);
@@ -24,6 +13,18 @@ int main(void)
 	fizz_buzz();
 	return (0);
 }
+
+
+/**
+ * fizz_buzz - This function print the 1-100 numbers and if some number is:
+ *
+ * multiple of 3 - print Fizz.
+ * multiple of 5 - print Buzz
+ * multiple of the two - FizzBuzz
+ *
+ * Return:  0
+ *
+ */
 
 int fizz_buzz(void)
 {
