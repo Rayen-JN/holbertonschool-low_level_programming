@@ -12,7 +12,7 @@ int _strlen(char *s)
 	int x = 0;
 
 	for (; s[x]; x++)
-	{
+	;
 	return (x);
-	}
+
 }
