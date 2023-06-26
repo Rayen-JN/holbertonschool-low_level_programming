@@ -1,14 +1,15 @@
+#include <stdio.h>
 #include "main.h"
-#include <string.h>
 
 /**
-* print_rev - func
-* @s: str
+* print_rev - function print str in reverse order
+* @s: str to print
 */
 
 void print_rev(char *s)
 {
 	int x = strlen(s) -1;
+
 	while (x >= 0)
 	{
 	_putchar(s[x]);
