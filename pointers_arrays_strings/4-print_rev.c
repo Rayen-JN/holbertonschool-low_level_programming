@@ -8,17 +8,9 @@
 
 void print_rev(char *s)
 {
-
-	int i = 0;
-	int x = strlen(s);
-
-	while (i < x)
-	{
-		char y;
-		y = s[i];
-		s[i] = s[x];
-		s[x] = y;
-		i++;
-		x--;
-	}
+	int x = strlen(s) -1;
+	while (x >= 0)
+	_ptchar(s[x]);
+	x--;
 }
+
