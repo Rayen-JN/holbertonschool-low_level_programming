@@ -5,6 +5,7 @@
 * _strcpy - func copy str to athour array
 * @dest: destination of str
 * @src: source str
+* Return: dest
 */
 
 char *_strcpy(char *dest, char *src)
@@ -17,5 +18,5 @@ char *_strcpy(char *dest, char *src)
 			dest[i] = src[i];
 		}
 		dest[i] = '\0';
-return dest;
+return (dest);
 }
