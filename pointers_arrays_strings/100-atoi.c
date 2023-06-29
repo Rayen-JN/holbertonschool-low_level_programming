@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* _ato - convert str to int
+* _atoi - convert str to int
 * @s: arry
 * Return: int
 *
@@ -18,8 +18,8 @@ unsigned int number = 0, sign = 1;
 			sign = sign * -1;
 		else if (number > 0)
 			break;
-		
+		s++;
 	}
-	return (number );
+	return (number * sing);
 
 }
