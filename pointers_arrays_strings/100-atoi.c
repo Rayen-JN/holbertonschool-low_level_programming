@@ -20,6 +20,6 @@ unsigned int number = 0, sign = 1;
 			break;
 		s++;
 	}
-	return (number * sing);
+	return (number * sign);
 
 }
