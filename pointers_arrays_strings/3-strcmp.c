@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _strmcpy - func
+ * _strcmp - func
  * @s1: str 1
  * @s2: str 2
  *
