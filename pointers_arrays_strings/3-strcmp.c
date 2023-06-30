@@ -1,3 +1,5 @@
+#include <string.h>
+#include <stdio.h>
 #include "main.h"
 /**
  * _strncpy - fun
@@ -8,17 +10,19 @@
  *Return: str
  */
 
-char *_strncpy(char *dest, char *src, int n)
+int _strcmp(char *s1, char *s2)
 {
-	int i;
-
-	for (i = 0; i < n && src[i] != '\0'; i++)
+	while ((*s1 != '\0' && *s2 != '\0') && *s1 == *s2)
 	{
-		dest[i] = src[i];
+		s1++;
+		s2++;
 	}
-	for (; i  < n; i++)
+	if (*s1 == *s2)
 	{
-		dest[i] = '\0';
+		return (0);
 	}
-	return (dest);
+	else
+	{
+return (*s1 - *s2);
+	}
 }
