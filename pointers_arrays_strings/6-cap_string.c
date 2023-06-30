@@ -24,7 +24,7 @@ char *cap_string(char *n)
 		{
 			n[count] = n[count] - 32;
 		}
-
+		count++;
 	}
 return (n);
 }
