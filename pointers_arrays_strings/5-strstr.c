@@ -5,7 +5,7 @@
  *
  * Return: numb
  * @haystack: Str
- * @needle: arry 
+ * @needle: arry
 */
 
 char *_strstr(char *haystack, char *needle)
