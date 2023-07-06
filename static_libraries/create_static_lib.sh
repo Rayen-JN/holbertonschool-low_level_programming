@@ -1,4 +1,5 @@
-#!/bin/bashgc -Wall -pedantic -Werror -Wextra -c *.c
+#!/bin/bash
+gcc -Wall -pedantic -Werror -Wextra -c *.c
 ar -rcs liball.a *.o
 ranlib libwork.a
 
