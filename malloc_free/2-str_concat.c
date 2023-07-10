@@ -16,11 +16,15 @@ char *str_concat(char *s1, char *s2)
 	int len1;
 	int len2;
 	int i;
-	if(s1 == NULL || s2 == NULL)
+	if(s1 == NULL && s2 == NULL)
 	{
 		return ('\0');
 	}
-	else if(s1 == NULL && s2 == NULL)
+	else if(s1 == NULL)
+	{
+		return ('\0');
+	}
+	else if (s2 == NULL)
 	{
 		return ('\0');
 	}
