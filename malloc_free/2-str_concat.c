@@ -7,7 +7,7 @@
  * str_concat - this is a fun
  * @s1: string number 1
  * @s2: string numbeerr2
- * @Return: True
+ * Return: True
  */
 
 char *str_concat(char *s1, char *s2)
@@ -16,24 +16,25 @@ char *str_concat(char *s1, char *s2)
 	int len1;
 	int len2;
 	int i;
-	if(s1 == NULL)
+
+	if (s1 == NULL)
 	{	s1 = "\0";
 	}
-	if(s2 == NULL)
+	if (s2 == NULL)
 	{	s2 = "\0";
 	}
 		len1 = strlen(s1);
 		len2 = strlen(s2);
 
 
-		ptr = (char*)malloc(((len1 + len2) +1) * sizeof(char));
-		if(ptr == NULL)
+		ptr = (char *) malloc(((len1 + len2) +1) * sizeof(char));
+		if (ptr == NULL)
 		{
 			return (NULL);
 		}
 		else
 		{
-			for (i = 0; i < (len1 + len2); i++ )
+			for (i = 0; i < (len1 + len2); i++)
 			{
 				if (i < len1)
 				{
@@ -43,12 +44,9 @@ char *str_concat(char *s1, char *s2)
 				{
 					ptr[i] = s2[i - len1];
 				}
-
 			}
-		}	
-	
+		}
 	ptr[i] = '\0';
-	return ptr;
+	return (ptr);
 	free(ptr);
-
 }
