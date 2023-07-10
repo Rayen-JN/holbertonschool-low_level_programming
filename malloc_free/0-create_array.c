@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-/*
+/**
 * create_array - func this isa fuc
 * @size: size of arry
 * @c: the char
-**/
+*/
 char *create_array(unsigned int size, char c)
 {
 unsigned int i;
