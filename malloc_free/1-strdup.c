@@ -24,8 +24,8 @@ for (i = 0; i < len; i++)
 	ptr[i] = str[i];
 }
 ptr[i] = '\0';
-free(ptr);
 return (ptr);
+free(ptr);
 }
 
 }
