@@ -16,7 +16,8 @@ if (str == NULL)
 {
 	return (NULL);
 }
-else{
+else
+{
 len = strlen(str);
 ptr = (char *)malloc((len + 1) * sizeof(char));
 if (ptr == NULL)
