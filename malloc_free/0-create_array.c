@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
-* create_array - func
+* create_array - func this isa fuc
 * @size: size of arry
 * @c: the char
 *
@@ -15,7 +15,7 @@ char *ptr;
 ptr = (char *)malloc(size * sizeof(char));
 if (size == 0 || ptr == NULL)
 {
-return NULL;
+return (NULL);
 }
 else
 {
@@ -24,5 +24,4 @@ for (i = 0; i < size; i++)
 ptr[i] = c;
 }
 return (ptr);
-}
-}
+}}
