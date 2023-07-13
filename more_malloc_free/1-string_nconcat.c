@@ -7,6 +7,7 @@
  * @s1: the sting number one
  * @s2: the string number tow
  * @n: the number of bytes of s2
+ * Return: Ptr or NULL
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
