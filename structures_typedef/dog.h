@@ -1,5 +1,5 @@
-#ifndef STRUCT
-#define STRUCT
+#ifndef HEADER_FILE
+#define HEADER_FILE
 
 struct dog
 {
@@ -7,7 +7,5 @@ struct dog
 	float age;
 	char owner;
 };
-
-typedef dog my_dog;
 
 #endif
