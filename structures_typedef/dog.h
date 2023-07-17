@@ -1,6 +1,7 @@
 #ifndef STRUCT
 #define STRUCT
 
+
 struct dog
 {
 	char *name;
