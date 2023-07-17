@@ -1,6 +1,7 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
-
+#include <stdio.h>
+#include <stdlib>
 /**
  * struct dog - struct information
  * @name: name of dog
@@ -16,5 +17,6 @@ struct dog
 };
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
 
 #endif
