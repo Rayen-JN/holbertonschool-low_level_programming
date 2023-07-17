@@ -1,7 +1,7 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 /**
  * struct dog - struct information
  * @name: name of dog
