@@ -19,3 +19,4 @@ In C, `argc` is an integer variable that represents the number of command-line a
 ## Accessing Command-Line Arguments
 
 The `argc` and `argv` parameters are typically declared in the `main` function.
+
