@@ -1,13 +1,13 @@
 #include "function_pointers.h"
 #include <stdlib.h>
 #include <stdio.h>
-
+#include "3-calc.h"
 /**
  * main - Prints the result
  * @argc: The number
  * @argv: An array
  *
- * Return: Always 0.
+ * Return: 0
  */
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
