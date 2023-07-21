@@ -3,11 +3,11 @@
 
 #include <stdlib.h>
 
-	/**
-	 * struct op - struct op
-	 * @op: operator
-	 * @f: function
-	 */
+/**
+* struct op - a struct op
+* @op: operator
+* @f: function
+*/
 	typedef struct op
 {
 	char op;
