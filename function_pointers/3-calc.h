@@ -1,5 +1,3 @@
-3 - calc.h
-
 #ifndef HEADER
 #define HEADER
 
