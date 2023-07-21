@@ -9,10 +9,10 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list number;
-	unsigned int i;
+	unsigned int x;
 
 	va_start(number, n);
-	for (i = 0; i < number; i++)
+	for (x = 0; x < n; x++)
 	{
 		printf("%d", va_arg(number, int));
 		if (i != (n - 1) && separator != NULL)
