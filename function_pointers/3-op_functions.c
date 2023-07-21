@@ -51,7 +51,7 @@ int op_div(int a, int b)
 	return (a / b);
 }
 /**
- * op_mod - op mode 
+ * op_mod - op mode
  * @a: The first number.
  * @b: The second number.
  *
