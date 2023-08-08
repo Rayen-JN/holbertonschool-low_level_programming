@@ -1,50 +1,32 @@
 #include "lists.h"
-
 /**
- * delete_dnodeint_at_index - deletes the node
- * @head: head of the list
- * @index: index of the new node
+ * insert_dnodeint_at_index - inserts a new node
+ * @h:head of the file
+ * @idx:index the node
+ * @n:data
  * Return: 1 or -1
  */
-int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
-	dlistint_t *h1;
-	dlistint_t *h2;
+	dlistint_t *ptr;
+	dlistint_t *new;
 	unsigned int i;
 
-	h1 = *head;
-
-	if (h1 != NULL)
-		while (h1->prev != NULL)
-			h1 = h1->prev;
-
+	ptr = *h;
 	i = 0;
-
-	while (h1 != NULL)
+	new = malloc(sizeof(dlistint_t));
+	if (new == NULL)
 	{
-		if (i == index)
-		{
-			if (i == 0)
-			{
-				*head = h1->next;
-				if (*head != NULL)
-					(*head)->prev = NULL;
-			}
-			else
-			{
-				h2->next = h1->next;
-
-				if (h1->next != NULL)
-					h1->next->prev = h2;
-			}
-
-			free(h1);
-			return (1);
-		}
-		h2 = h1;
-		h1 = h1->next;
-		i++;
+		return (NULL);
 	}
-
-	return (-1);
+	while (ptr != NULL && i < idx)
+	{
+		ptr = ptr->next;
+		i--;
+	}
+	new->prev = ptr;
+	new->n = n;
+	ptr = ptr->next;
+	new->next = ptr;
+	return (new);
 }
