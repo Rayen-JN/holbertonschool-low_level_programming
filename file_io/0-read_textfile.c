@@ -4,7 +4,7 @@
  * read_textfile - read the text file
  * @filename: the name of the file
  * @letters: the size of letter
- * Return:
+ * Return: w
  *
  */
 ssize_t read_textfile(const char *filename, size_t letters)
@@ -26,5 +26,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	free(buf);
 	close(fd);
-	return(w);
+	return (w);
 }
