@@ -1,6 +1,10 @@
 #ifndef HEADER
 #define HEADER
 
+#include <sting.h>
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
  * struct hash_node_s - Node of a hash table
  *
