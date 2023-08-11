@@ -1,7 +1,7 @@
 #ifndef HEADER
 #define HEADER
 
-#include <sting.h>
+#include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
 
