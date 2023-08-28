@@ -13,20 +13,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	char *value_copy;
 	unsigned long int index, i;
 
-	if (key == NULL)
-	{
+	if (ht == NULL || key == NULL || *key == '\0' || value == NULL)
 		return (0);
-	}
-	if (*key == '\0')
-	{
-		return (0);
-	}
-	if (value == NULL)
-	{
-		return (0);
-	}
-	
-	
 
 	value_copy = strdup(value);
 	if (value_copy == NULL)
